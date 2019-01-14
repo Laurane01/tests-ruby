@@ -17,13 +17,8 @@ end
 
 def array_42(arr)
   return arr.include?(42)
-  # result = false
-  # arr.each do |i|
-  #   result = true if i == 42
-  # end
-  # return true
 end
 
 def magic_array(a)
-  a.flatten.map{|x|x*2}.select{|x|x%3!=0}.uniq.sort #49 caracteres, eh oui
+  a.flatten.map{|x|x*2}.select{|x|x%3!=0}.uniq.sort #49 caracteres, et oui
 end
