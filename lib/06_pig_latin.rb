@@ -39,5 +39,27 @@ def translate(phrase)
     end
 
   end
-  return arr2.join(" ")
+  if phrase[0] == phrase[0].capitalize
+    return arr2.join(" ").capitalize 
+  else
+    return arr2.join(" ")
+  end
 end
+
+# translate("apple")
+# translate("banana")
+# translate("cherry")
+# translate("three")
+# translate("eat pie")
+# translate("school")
+# translate("quiet")
+# translate("agsqudewdw")
+# translate("the quick brown fox")
+# translate("square")
+# translate("Batard")
+
+# string = "quiet"
+# p string.scan(/[q][u]/).join
+
+
+
