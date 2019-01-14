@@ -29,3 +29,5 @@ def titleize(string)
   str.first.capitalize!
   return str.join(" ")
 end
+
+#ESsayer avec un .mapou collect
